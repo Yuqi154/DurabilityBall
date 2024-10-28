@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "GNU GPL 3.0"
+
+[[mods]]
+modId = "durabilityball"
+version = "${version}"
+displayName = "DurabilityBall"
+authors = ""
+description = '''
+
+'''
+logoFile = "icon.png"
+
+[[dependencies.durabilityball]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.durabilityball]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.durabilityball]]
+modId = "cloth_config"
+mandatory = true
+versionRange = "[11.1.0,)"
+ordering = "AFTER"
+side = "BOTH"

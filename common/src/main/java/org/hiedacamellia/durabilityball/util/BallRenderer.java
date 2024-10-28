@@ -12,7 +12,7 @@ import org.hiedacamellia.durabilityball.DurabilityBall;
 
 public class BallRenderer {
 
-    private static final ResourceLocation T = ResourceLocation.fromNamespaceAndPath(DurabilityBall.MOD_ID, "textures/gui/0.png");
+    private static final ResourceLocation T = new ResourceLocation(DurabilityBall.MOD_ID, "textures/gui/0.png");
 
 
     public static void renderBall(ItemStack itemStack, GuiGraphics guiGraphics, int i, int j) {
