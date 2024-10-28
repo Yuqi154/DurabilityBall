@@ -4,13 +4,13 @@ import net.minecraft.resources.ResourceLocation;
 import org.hiedacamellia.durabilityball.DurabilityBall;
 
 public class TextureUtil {
-    private static final ResourceLocation T1 = ResourceLocation.fromNamespaceAndPath(DurabilityBall.MOD_ID, "textures/gui/en_animate/1.png");
-    private static final ResourceLocation T2 = ResourceLocation.fromNamespaceAndPath(DurabilityBall.MOD_ID, "textures/gui/en_animate/2.png");
-    private static final ResourceLocation T3 = ResourceLocation.fromNamespaceAndPath(DurabilityBall.MOD_ID, "textures/gui/en_animate/3.png");
-    private static final ResourceLocation T4 = ResourceLocation.fromNamespaceAndPath(DurabilityBall.MOD_ID, "textures/gui/en_animate/4.png");
-    private static final ResourceLocation T5 = ResourceLocation.fromNamespaceAndPath(DurabilityBall.MOD_ID, "textures/gui/en_animate/5.png");
-    private static final ResourceLocation T6 = ResourceLocation.fromNamespaceAndPath(DurabilityBall.MOD_ID, "textures/gui/en_animate/6.png");
-    private static final ResourceLocation T7 = ResourceLocation.fromNamespaceAndPath(DurabilityBall.MOD_ID, "textures/gui/en_animate/7.png");
+    private static final ResourceLocation T1 = new ResourceLocation(DurabilityBall.MOD_ID, "textures/gui/en_animate/1.png");
+    private static final ResourceLocation T2 = new ResourceLocation(DurabilityBall.MOD_ID, "textures/gui/en_animate/2.png");
+    private static final ResourceLocation T3 = new ResourceLocation(DurabilityBall.MOD_ID, "textures/gui/en_animate/3.png");
+    private static final ResourceLocation T4 = new ResourceLocation(DurabilityBall.MOD_ID, "textures/gui/en_animate/4.png");
+    private static final ResourceLocation T5 = new ResourceLocation(DurabilityBall.MOD_ID, "textures/gui/en_animate/5.png");
+    private static final ResourceLocation T6 = new ResourceLocation(DurabilityBall.MOD_ID, "textures/gui/en_animate/6.png");
+    private static final ResourceLocation T7 = new ResourceLocation(DurabilityBall.MOD_ID, "textures/gui/en_animate/7.png");
 
     public static ResourceLocation getTexture(int i){
         switch (i){

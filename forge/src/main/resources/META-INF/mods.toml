@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[2,)"
+loaderVersion = "[47,)"
 #issueTrackerURL = ""
 license = "GNU GPL 3.0"
 
@@ -14,25 +14,22 @@ description = '''
 logoFile = "icon.png"
 
 [[dependencies.durabilityball]]
-modId = "neoforge"
-type = "required"
-versionRange = "[21,)"
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.durabilityball]]
 modId = "minecraft"
-type = "required"
-versionRange = "[1.21.0,)"
+mandatory = true
+versionRange = "[1.20.1,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.durabilityball]]
 modId = "cloth_config"
-type = "required"
-versionRange = "[15.0.0,)"
+mandatory = true
+versionRange = "[11.1.0,)"
 ordering = "AFTER"
 side = "BOTH"
-
-[[mixins]]
-config = "durabilityball.mixins.json"
